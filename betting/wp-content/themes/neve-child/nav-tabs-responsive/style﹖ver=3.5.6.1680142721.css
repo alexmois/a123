@@ -1,0 +1,29 @@
+.dropdown_wpsm_nav {
+  background-color: #ededed;
+  border: 1px solid #dadada;
+  border-radius: 0px 0px 0 0;
+  color: #000000;
+  display: block;
+  font-family: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin-bottom: -1px;
+  margin-right: 0px;
+  padding: 15px 18px 15px 18px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.wpsm_nav.wpsm_nav-tabs {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .wpsm_nav.wpsm_nav-tabs {
+    display: block;
+  }
+
+  .dropdown_wpsm_nav {
+    display: none;
+  }
+}
